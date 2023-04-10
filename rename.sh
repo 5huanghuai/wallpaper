@@ -11,5 +11,5 @@ done
 
 echo '## wallpapers' > ../README.md
 for file in $(ls | grep -v 1.sh | grep -v README); do
-    echo "$file![./wallpaper/$file]($file)" >> ../README.md
+    echo "$file![$file](./wallpaper/$file)" >> ../README.md
 done
